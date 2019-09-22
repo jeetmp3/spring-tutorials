@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+//    id 'org.springframework.boot' version '2.1.8.RELEASE' apply false
+//    id 'io.spring.dependency-management' version '1.0.8.RELEASE' apply false
+}
+
+group = "$rootGroupName"
+version = "$appVersion"
+
+subprojects {
+
+    sourceCompatibility = "$javaVersion"
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+
+//dependencies {
+//    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//}

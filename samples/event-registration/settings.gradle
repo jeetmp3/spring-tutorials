@@ -1,0 +1,3 @@
+rootProject.name = 'event-registration'
+
+include 'service-registry', 'order-svc', 'user-svc', 'event-svc', 'event-reg-svc'
