@@ -1,4 +1,5 @@
 include 'spring-cloud-demo', 'event-registration'
+include 'spring-consul-demo'
 
 // samples
 project(":event-registration").projectDir  = file("samples/event-registration")
